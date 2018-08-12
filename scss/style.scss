@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.content {
+    margin: 0 !important;
+}
+
+.centered {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  .centered {
+    padding: 0;
+  }
+}
+
+.call-to-action {
+  background: hsl(48, 100%, 67%);
+}
+
+.header, .footer {
+  background: grey;
+}
+
+.header {
+  height: 80vh;
+  overflow: auto;
+  justify-content: flex-start;
+}
+
+.main-section {
+  background: hsl(141, 71%, 48%);
+}
+
+.monster-shot {
+  background: black;
+  color: white;
+  height: 100vh;
+  
+  h1 {
+    color: white;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
